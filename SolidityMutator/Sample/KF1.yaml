@@ -1,0 +1,29 @@
+name: "Mutation1"
+type : "AddIfElse"
+parameters:
+  addTo: "Random"
+  condition: "true"
+  onlyIf: false
+  nested: 6
+innerMutations:
+  - name: "Inner1"
+    type: "AddIfElse"
+    parameters:
+      addTo: "Random"
+      condition: "true"
+      onlyIf: true
+      move: "true"
+  - name: "Inner4"
+    type: "AddFunctionDef"
+
+      
+    
+    
+
+
+
+
+
+
+    
+  

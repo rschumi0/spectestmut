@@ -1,0 +1,46 @@
+{
+  "attributes" :
+  {
+    "constant" : true,
+    "name" : "x",
+    "scope" : 5,
+    "stateVariable" : true,
+    "storageLocation" : "default",
+    "type" : "uint256",
+    "visibility" : "internal"
+  },
+  "children" :
+  [
+    {
+      "attributes" :
+      {
+        "name" : "uint",
+        "type" : "uint256"
+      },
+      "id" : 2,
+      "name" : "ElementaryTypeName",
+      "src" : "60:4:0"
+    },
+    {
+      "attributes" :
+      {
+        "argumentTypes" : null,
+        "hexvalue" : "3332",
+        "isConstant" : false,
+        "isLValue" : false,
+        "isPure" : true,
+        "lValueRequested" : false,
+        "subdenomination" : null,
+        "token" : "number",
+        "type" : "int_const 32",
+        "value" : "32"
+      },
+      "id" : 3,
+      "name" : "Literal",
+      "src" : "78:2:0"
+    }
+  ],
+  "id" : 4,
+  "name" : "VariableDeclaration",
+  "src" : "60:20:0"
+}

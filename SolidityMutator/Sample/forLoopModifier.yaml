@@ -1,0 +1,10 @@
+name: "Mutation1"
+type : "AddForLoop"
+parameters:
+  Break: true
+innerMutations:
+  - name: "Inner1"
+    type: "AddModifier"
+    parameters:
+      count: 2
+  

@@ -1,0 +1,16 @@
+{
+  "attributes" :
+  {
+    "canonicalName" : "Hello.Asdf",
+    "name" : "Asdf",
+    "scope" : 24,
+    "visibility" : "public"
+  },
+  "children" :
+  [
+
+  ],
+  "id" : 6,
+  "name" : "StructDefinition",
+  "src" : "48:72:0"
+}

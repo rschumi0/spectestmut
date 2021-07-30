@@ -1,0 +1,336 @@
+{
+  "children":
+          [
+            {
+              "children" :
+              [
+                {
+                  "attributes" :
+                  {
+                    "argumentTypes" : null,
+                    "overloadedDeclarations" :
+                    [
+                      null
+                    ],
+                    "referencedDeclaration" : 16,
+                    "type" : "modifier (address)",
+                    "value" : "validToken"
+                  },
+                  "id" : 18,
+                  "name" : "Identifier",
+                  "src" : "227:10:0"
+                },
+                {
+                  "attributes" :
+                  {
+                    "argumentTypes" : null,
+                    "isConstant" : false,
+                    "isLValue" : false,
+                    "isPure" : true,
+                    "isStructConstructorCall" : false,
+                    "lValueRequested" : false,
+                    "names" :
+                    [
+                      null
+                    ],
+                    "type" : "address payable",
+                    "type_conversion" : true
+                  },
+                  "children" :
+                  [
+                    {
+                      "attributes" :
+                      {
+                        "argumentTypes" :
+                        [
+                          {
+                            "typeIdentifier" : "t_rational_0_by_1",
+                            "typeString" : "int_const 0"
+                          }
+                        ],
+                        "isConstant" : false,
+                        "isLValue" : false,
+                        "isPure" : true,
+                        "lValueRequested" : false,
+                        "type" : "type(address)",
+                        "value" : "address"
+                      },
+                      "id" : 19,
+                      "name" : "ElementaryTypeNameExpression",
+                      "src" : "238:7:0"
+                    },
+                    {
+                      "attributes" :
+                      {
+                        "argumentTypes" : null,
+                        "hexvalue" : "307830",
+                        "isConstant" : false,
+                        "isLValue" : false,
+                        "isPure" : true,
+                        "lValueRequested" : false,
+                        "subdenomination" : null,
+                        "token" : "number",
+                        "type" : "int_const 0",
+                        "value" : "0x0"
+                      },
+                      "id" : 20,
+                      "name" : "Literal",
+                      "src" : "246:3:0"
+                    }
+                  ],
+                  "id" : 21,
+                  "name" : "FunctionCall",
+                  "src" : "238:12:0"
+                }
+              ],
+              "id" : 22,
+              "name" : "ModifierInvocation",
+              "src" : "227:24:0"
+            },
+            {
+              "attributes" :
+              {
+                "documentation" : null,
+                "name" : "validToken",
+                "visibility" : "internal"
+              },
+              "children" :
+              [
+                {
+                  "children" :
+                  [
+                    {
+                      "attributes" :
+                      {
+                        "constant" : false,
+                        "name" : "value",
+                        "scope" : 16,
+                        "stateVariable" : false,
+                        "storageLocation" : "default",
+                        "type" : "address",
+                        "value" : null,
+                        "visibility" : "internal"
+                      },
+                      "children" :
+                      [
+                        {
+                          "attributes" :
+                          {
+                            "name" : "address",
+                            "stateMutability" : "nonpayable",
+                            "type" : "address"
+                          },
+                          "id" : 2,
+                          "name" : "ElementaryTypeName",
+                          "src" : "78:7:0"
+                        }
+                      ],
+                      "id" : 3,
+                      "name" : "VariableDeclaration",
+                      "src" : "78:13:0"
+                    }
+                  ],
+                  "id" : 4,
+                  "name" : "ParameterList",
+                  "src" : "77:15:0"
+                },
+                {
+                  "children" :
+                  [
+                    {
+                      "children" :
+                      [
+                        {
+                          "attributes" :
+                          {
+                            "argumentTypes" : null,
+                            "isConstant" : false,
+                            "isLValue" : false,
+                            "isPure" : false,
+                            "isStructConstructorCall" : false,
+                            "lValueRequested" : false,
+                            "names" :
+                            [
+                              null
+                            ],
+                            "type" : "tuple()",
+                            "type_conversion" : false
+                          },
+                          "children" :
+                          [
+                            {
+                              "attributes" :
+                              {
+                                "argumentTypes" :
+                                [
+                                  {
+                                    "typeIdentifier" : "t_bool",
+                                    "typeString" : "bool"
+                                  },
+                                  {
+                                    "typeIdentifier" : "t_stringliteral_8024041a109da30d1e5d8bf931ac079622e4a62b8bdbbe962572365afc10dc6c",
+                                    "typeString" : "literal_string \"value must be a valid ERC20 token address\""
+                                  }
+                                ],
+                                "overloadedDeclarations" :
+                                [
+                                  44,
+                                  45
+                                ],
+                                "referencedDeclaration" : 45,
+                                "type" : "function (bool,string memory) pure",
+                                "value" : "require"
+                              },
+                              "id" : 5,
+                              "name" : "Identifier",
+                              "src" : "100:7:0"
+                            },
+                            {
+                              "attributes" :
+                              {
+                                "argumentTypes" : null,
+                                "commonType" :
+                                {
+                                  "typeIdentifier" : "t_address",
+                                  "typeString" : "address"
+                                },
+                                "isConstant" : false,
+                                "isLValue" : false,
+                                "isPure" : false,
+                                "lValueRequested" : false,
+                                "operator" : "==",
+                                "type" : "bool"
+                              },
+                              "children" :
+                              [
+                                {
+                                  "attributes" :
+                                  {
+                                    "argumentTypes" : null,
+                                    "overloadedDeclarations" :
+                                    [
+                                      null
+                                    ],
+                                    "referencedDeclaration" : 3,
+                                    "type" : "address",
+                                    "value" : "value"
+                                  },
+                                  "id" : 6,
+                                  "name" : "Identifier",
+                                  "src" : "108:5:0"
+                                },
+                                {
+                                  "attributes" :
+                                  {
+                                    "argumentTypes" : null,
+                                    "isConstant" : false,
+                                    "isLValue" : false,
+                                    "isPure" : true,
+                                    "isStructConstructorCall" : false,
+                                    "lValueRequested" : false,
+                                    "names" :
+                                    [
+                                      null
+                                    ],
+                                    "type" : "address payable",
+                                    "type_conversion" : true
+                                  },
+                                  "children" :
+                                  [
+                                    {
+                                      "attributes" :
+                                      {
+                                        "argumentTypes" :
+                                        [
+                                          {
+                                            "typeIdentifier" : "t_rational_0_by_1",
+                                            "typeString" : "int_const 0"
+                                          }
+                                        ],
+                                        "isConstant" : false,
+                                        "isLValue" : false,
+                                        "isPure" : true,
+                                        "lValueRequested" : false,
+                                        "type" : "type(address)",
+                                        "value" : "address"
+                                      },
+                                      "id" : 7,
+                                      "name" : "ElementaryTypeNameExpression",
+                                      "src" : "117:7:0"
+                                    },
+                                    {
+                                      "attributes" :
+                                      {
+                                        "argumentTypes" : null,
+                                        "hexvalue" : "307830",
+                                        "isConstant" : false,
+                                        "isLValue" : false,
+                                        "isPure" : true,
+                                        "lValueRequested" : false,
+                                        "subdenomination" : null,
+                                        "token" : "number",
+                                        "type" : "int_const 0",
+                                        "value" : "0x0"
+                                      },
+                                      "id" : 8,
+                                      "name" : "Literal",
+                                      "src" : "125:3:0"
+                                    }
+                                  ],
+                                  "id" : 9,
+                                  "name" : "FunctionCall",
+                                  "src" : "117:12:0"
+                                }
+                              ],
+                              "id" : 10,
+                              "name" : "BinaryOperation",
+                              "src" : "108:21:0"
+                            },
+                            {
+                              "attributes" :
+                              {
+                                "argumentTypes" : null,
+                                "hexvalue" : "76616c7565206d75737420626520612076616c696420455243323020746f6b656e2061646472657373",
+                                "isConstant" : false,
+                                "isLValue" : false,
+                                "isPure" : true,
+                                "lValueRequested" : false,
+                                "subdenomination" : null,
+                                "token" : "string",
+                                "type" : "literal_string \"value must be a valid ERC20 token address\"",
+                                "value" : "value must be a valid ERC20 token address"
+                              },
+                              "id" : 11,
+                              "name" : "Literal",
+                              "src" : "131:43:0"
+                            }
+                          ],
+                          "id" : 12,
+                          "name" : "FunctionCall",
+                          "src" : "100:75:0"
+                        }
+                      ],
+                      "id" : 13,
+                      "name" : "ExpressionStatement",
+                      "src" : "100:75:0"
+                    },
+                    {
+                      "id" : 14,
+                      "name" : "PlaceholderStatement",
+                      "src" : "177:1:0"
+                    }
+                  ],
+                  "id" : 15,
+                  "name" : "Block",
+                  "src" : "93:94:0"
+                }
+              ],
+              "id" : 16,
+              "name" : "ModifierDefinition",
+              "src" : "58:129:0"
+            }
+          ],
+  "id" : 190,
+  "name" : "MutationNode",
+  "src" : "58:129:0"
+}

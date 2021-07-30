@@ -1,0 +1,51 @@
+{
+  "attributes" :
+  {
+    "constant" : false,
+    "name" : "balances",
+    "scope" : 6,
+    "stateVariable" : true,
+    "storageLocation" : "default",
+    "type" : "mapping(address => uint256)",
+    "value" : null,
+    "visibility" : "public"
+  },
+  "children" :
+  [
+    {
+      "attributes" :
+      {
+        "type" : "mapping(address => uint256)"
+      },
+      "children" :
+      [
+        {
+          "attributes" :
+          {
+            "name" : "address",
+            "type" : "address"
+          },
+          "id" : 2,
+          "name" : "ElementaryTypeName",
+          "src" : "74:7:0"
+        },
+        {
+          "attributes" :
+          {
+            "name" : "uint",
+            "type" : "uint256"
+          },
+          "id" : 3,
+          "name" : "ElementaryTypeName",
+          "src" : "85:4:0"
+        }
+      ],
+      "id" : 4,
+      "name" : "Mapping",
+      "src" : "66:24:0"
+    }
+  ],
+  "id" : 5,
+  "name" : "VariableDeclaration",
+  "src" : "66:40:0"
+}

@@ -1,0 +1,71 @@
+{
+  "attributes" :
+  {
+    "argumentTypes" : null,
+    "isConstant" : false,
+    "isLValue" : false,
+    "isPure" : true,
+    "lValueRequested" : false,
+    "type" : "bool"
+  },
+  "children" :
+  [
+    {
+      "attributes" :
+      {
+        "argumentTypes" : null,
+        "hexvalue" : "74727565",
+        "isConstant" : false,
+        "isLValue" : false,
+        "isPure" : true,
+        "lValueRequested" : false,
+        "subdenomination" : null,
+        "token" : "bool",
+        "type" : "bool",
+        "value" : "true"
+      },
+      "id" : 4,
+      "name" : "Literal",
+      "src" : "92:4:0"
+    },
+    {
+      "attributes" :
+      {
+        "argumentTypes" : null,
+        "hexvalue" : "74727565",
+        "isConstant" : false,
+        "isLValue" : false,
+        "isPure" : true,
+        "lValueRequested" : false,
+        "subdenomination" : null,
+        "token" : "bool",
+        "type" : "bool",
+        "value" : "true"
+      },
+      "id" : 5,
+      "name" : "Literal",
+      "src" : "99:4:0"
+    },
+    {
+      "attributes" :
+      {
+        "argumentTypes" : null,
+        "hexvalue" : "66616c7365",
+        "isConstant" : false,
+        "isLValue" : false,
+        "isPure" : true,
+        "lValueRequested" : false,
+        "subdenomination" : null,
+        "token" : "bool",
+        "type" : "bool",
+        "value" : "false"
+      },
+      "id" : 6,
+      "name" : "Literal",
+      "src" : "105:5:0"
+    }
+  ],
+  "id" : 7,
+  "name" : "Conditional",
+  "src" : "92:18:0"
+}

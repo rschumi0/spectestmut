@@ -1,0 +1,86 @@
+{
+  "children" :
+  [
+    {
+      "attributes" :
+      {
+        "argumentTypes" : null,
+        "overloadedDeclarations" :
+        [
+          null
+        ],
+        "referencedDeclaration" : 16,
+        "type" : "modifier (address)",
+        "value" : "validToken"
+      },
+      "id" : 18,
+      "name" : "Identifier",
+      "src" : "227:10:0"
+    },
+    {
+      "attributes" :
+      {
+        "argumentTypes" : null,
+        "isConstant" : false,
+        "isLValue" : false,
+        "isPure" : true,
+        "isStructConstructorCall" : false,
+        "lValueRequested" : false,
+        "names" :
+        [
+          null
+        ],
+        "type" : "address payable",
+        "type_conversion" : true
+      },
+      "children" :
+      [
+        {
+          "attributes" :
+          {
+            "argumentTypes" :
+            [
+              {
+                "typeIdentifier" : "t_rational_0_by_1",
+                "typeString" : "int_const 0"
+              }
+            ],
+            "isConstant" : false,
+            "isLValue" : false,
+            "isPure" : true,
+            "lValueRequested" : false,
+            "type" : "type(address)",
+            "value" : "address"
+          },
+          "id" : 19,
+          "name" : "ElementaryTypeNameExpression",
+          "src" : "238:7:0"
+        },
+        {
+          "attributes" :
+          {
+            "argumentTypes" : null,
+            "hexvalue" : "307830",
+            "isConstant" : false,
+            "isLValue" : false,
+            "isPure" : true,
+            "lValueRequested" : false,
+            "subdenomination" : null,
+            "token" : "number",
+            "type" : "int_const 0",
+            "value" : "0x0"
+          },
+          "id" : 20,
+          "name" : "Literal",
+          "src" : "246:3:0"
+        }
+      ],
+      "id" : 21,
+      "name" : "FunctionCall",
+      "src" : "238:12:0"
+    }
+  ],
+  "id" : 22,
+  "name" : "ModifierInvocation",
+  "src" : "227:24:0"
+}

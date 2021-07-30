@@ -1,0 +1,69 @@
+name: "Mutation1"
+type : "AddIfElse"
+parameters:
+  addTo: "Random"
+  condition: "true"
+  onlyIf: false
+  nested: 2
+innerMutations:
+
+  - name: "Inner1"
+    type: "AddModifier"
+    parameters:
+      count: 2
+
+  - name: "Inner2"
+    type: "AddEnumDef"
+    parameters:
+      count: 2
+
+  - name: "Inner3"
+    type: "AddWhile"
+    parameters:
+      Break: true
+      condition: "true"
+      addTo: "Random"
+
+  - name: "Inner4"
+    type: "AddConditional"
+
+  - name: "Inner5"
+    type : "AddConstant"
+    parameters:
+      type: "uint32"
+      value: "44"
+      name: "testconst"
+
+  - name: "Inner6"
+    type: "AddEvent"
+    parameters:
+      count: 2
+
+  - name: "Inner7"
+    type: "AddForLoop"
+    parameters:
+      count: 2
+      nested: 1
+
+  - name: "Inner8"
+    type: "AddEvent"
+    parameters:
+      count: 2
+
+  - name: "Inner9"
+    type: "AddFunctionDef"
+    parameters:
+      count: 2
+      stateMutability: "pure"
+
+  - name: "Inner10"
+    type: "AddMapping"
+
+  - name: "Inner11"
+    type: "AddRequire"
+    parameters:
+      check: "true"
+    
+
+  - name: "Inner12"
+    type: "RemoveView"

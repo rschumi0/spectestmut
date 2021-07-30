@@ -1,0 +1,29 @@
+{
+  "attributes" :
+  {
+    "constant" : false,
+    "name" : "fundingGoal",
+    "scope" : 6,
+    "stateVariable" : false,
+    "storageLocation" : "default",
+    "type" : "uint256",
+    "value" : null,
+    "visibility" : "internal"
+  },
+  "children" :
+  [
+    {
+      "attributes" :
+      {
+        "name" : "uint",
+        "type" : "uint256"
+      },
+      "id" : 2,
+      "name" : "ElementaryTypeName",
+      "src" : "71:4:0"
+    }
+  ],
+  "id" : 3,
+  "name" : "VariableDeclaration",
+  "src" : "71:16:0"
+}

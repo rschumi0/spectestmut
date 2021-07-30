@@ -1,0 +1,7 @@
+name: "Mutation1"
+type : "AddTryCatch"
+parameters:
+  move: "rand"
+  randomNestedThrow: true
+  nested: 3
+

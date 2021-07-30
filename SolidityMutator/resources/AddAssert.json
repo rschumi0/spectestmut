@@ -1,0 +1,69 @@
+{
+  "children" :
+  [
+    {
+      "attributes" :
+      {
+        "argumentTypes" : null,
+        "isConstant" : false,
+        "isLValue" : false,
+        "isPure" : false,
+        "isStructConstructorCall" : false,
+        "lValueRequested" : false,
+        "names" :
+        [
+          null
+        ],
+        "type" : "tuple()",
+        "type_conversion" : false
+      },
+      "children" :
+      [
+        {
+          "attributes" :
+          {
+            "argumentTypes" :
+            [
+              {
+                "typeIdentifier" : "t_bool",
+                "typeString" : "bool"
+              }
+            ],
+            "overloadedDeclarations" :
+            [
+              null
+            ],
+            "referencedDeclaration" : 35,
+            "type" : "function (bool) pure",
+            "value" : "assert"
+          },
+          "id" : 11,
+          "name" : "Identifier",
+          "src" : "103:6:0"
+        },
+        {
+          "attributes" :
+          {
+            "argumentTypes" : null,
+            "overloadedDeclarations" :
+            [
+              null
+            ],
+            "referencedDeclaration" : 8,
+            "type" : "bool",
+            "value" : "asdfasdfasdfsadf"
+          },
+          "id" : 12,
+          "name" : "Identifier",
+          "src" : "110:16:0"
+        }
+      ],
+      "id" : 13,
+      "name" : "FunctionCall",
+      "src" : "103:24:0"
+    }
+  ],
+  "id" : 14,
+  "name" : "ExpressionStatement",
+  "src" : "103:24:0"
+}

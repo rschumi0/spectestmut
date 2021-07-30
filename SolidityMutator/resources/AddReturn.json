@@ -1,0 +1,30 @@
+{
+  "attributes" :
+  {
+    "functionReturnParameters" : 4
+  },
+  "children" :
+  [
+    {
+      "attributes" :
+      {
+        "argumentTypes" : null,
+        "hexvalue" : "31",
+        "isConstant" : false,
+        "isLValue" : false,
+        "isPure" : true,
+        "lValueRequested" : false,
+        "subdenomination" : null,
+        "token" : "number",
+        "type" : "int_const 1",
+        "value" : "1"
+      },
+      "id" : 5,
+      "name" : "Literal",
+      "src" : "148:1:0"
+    }
+  ],
+  "id" : 6,
+  "name" : "Return",
+  "src" : "141:8:0"
+}

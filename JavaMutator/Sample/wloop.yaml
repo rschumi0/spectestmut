@@ -1,0 +1,5 @@
+  name: "loop"
+  type: "AddWhile"
+  parameters:
+    move: "rand"
+    randomNestedBreak: true

@@ -1,0 +1,6 @@
+name: "Mutation1"
+type : "AddEvent"
+parameters:
+  count: 2
+  addTo: "Random"
+  

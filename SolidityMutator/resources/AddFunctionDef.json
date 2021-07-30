@@ -1,0 +1,125 @@
+{
+  "children":
+          [
+          {
+					"attributes" :
+					{
+						"documentation" : null,
+						"implemented" : true,
+						"isConstructor" : false,
+						"kind" : "function",
+						"modifiers" :
+						[
+							null
+						],
+						"name" : "test",
+						"scope" : 6,
+						"stateMutability" : "nonpayable",
+						"superFunction" : null,
+						"visibility" : "public"
+					},
+					"children" :
+					[
+						{
+							"attributes" :
+							{
+								"parameters" :
+								[
+									null
+								]
+							},
+							"children" : [],
+							"id" : 2,
+							"name" : "ParameterList",
+							"src" : "71:2:0"
+						},
+						{
+							"attributes" :
+							{
+								"parameters" :
+								[
+									null
+								]
+							},
+							"children" : [],
+							"id" : 3,
+							"name" : "ParameterList",
+							"src" : "81:0:0"
+						},
+						{
+							"attributes" :
+							{
+								"statements" :
+								[
+									null
+								]
+							},
+							"children" : [],
+							"id" : 4,
+							"name" : "Block",
+							"src" : "81:8:0"
+						}
+					],
+					"id" : 5,
+					"name" : "FunctionDefinition",
+					"src" : "58:31:0"
+				},
+{
+									"children" :
+									[
+										{
+											"attributes" :
+											{
+												"argumentTypes" : null,
+												"arguments" :
+												[
+													null
+												],
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"isStructConstructorCall" : false,
+												"lValueRequested" : false,
+												"names" :
+												[
+													null
+												],
+												"type" : "tuple()",
+												"type_conversion" : false
+											},
+											"children" :
+											[
+												{
+													"attributes" :
+													{
+														"argumentTypes" :
+														[
+															null
+														],
+														"overloadedDeclarations" :
+														[
+															null
+														],
+														"referencedDeclaration" : 5,
+														"type" : "function ()",
+														"value" : "test"
+													},
+													"id" : 8,
+													"name" : "Identifier",
+													"src" : "130:4:0"
+												}
+											],
+											"id" : 9,
+											"name" : "FunctionCall",
+											"src" : "130:6:0"
+										}
+									],
+									"id" : 10,
+									"name" : "ExpressionStatement",
+									"src" : "130:6:0"
+								}
+										],
+                                        									"id" : 10,
+                                        									"name" : "MutationNode",
+                                        									"src" : "130:6:0"
+                                        									}

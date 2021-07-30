@@ -1,0 +1,149 @@
+{
+  "children":
+  [
+    {
+      "children" :
+      [
+        {
+          "attributes" :
+          {
+            "argumentTypes" : null,
+            "isConstant" : false,
+            "isLValue" : false,
+            "isPure" : false,
+            "isStructConstructorCall" : false,
+            "lValueRequested" : false,
+            "names" :
+            [
+              null
+            ],
+            "type" : "tuple()",
+            "type_conversion" : false
+          },
+          "children" :
+          [
+            {
+              "attributes" :
+              {
+                "argumentTypes" :
+                [
+                  {
+                    "typeIdentifier" : "t_address_payable",
+                    "typeString" : "address payable"
+                  }
+                ],
+                "overloadedDeclarations" :
+                [
+                  null
+                ],
+                "referencedDeclaration" : 5,
+                "type" : "function (address)",
+                "value" : "EventSendCoin"
+              },
+              "id" : 10,
+              "name" : "Identifier",
+              "src" : "175:13:0"
+            },
+            {
+              "attributes" :
+              {
+                "argumentTypes" : null,
+                "isConstant" : false,
+                "isLValue" : false,
+                "isPure" : false,
+                "lValueRequested" : false,
+                "member_name" : "sender",
+                "referencedDeclaration" : null,
+                "type" : "address payable"
+              },
+              "children" :
+              [
+                {
+                  "attributes" :
+                  {
+                    "argumentTypes" : null,
+                    "overloadedDeclarations" :
+                    [
+                      null
+                    ],
+                    "referencedDeclaration" : 34,
+                    "type" : "msg",
+                    "value" : "msg"
+                  },
+                  "id" : 11,
+                  "name" : "Identifier",
+                  "src" : "189:3:0"
+                }
+              ],
+              "id" : 12,
+              "name" : "MemberAccess",
+              "src" : "189:10:0"
+            }
+          ],
+          "id" : 13,
+          "name" : "FunctionCall",
+          "src" : "175:25:0"
+        }
+      ],
+      "id" : -200,
+      "name" : "EmitStatement",
+      "src" : "170:30:0"
+    },
+    {
+      "attributes" :
+      {
+        "anonymous" : false,
+        "documentation" : null,
+        "name" : "EventSendCoin"
+      },
+      "children" :
+      [
+        {
+          "children" :
+          [
+            {
+              "attributes" :
+              {
+                "constant" : false,
+                "indexed" : true,
+                "name" : "sender",
+                "scope" : 5,
+                "stateVariable" : false,
+                "storageLocation" : "default",
+                "type" : "address",
+                "value" : null,
+                "visibility" : "internal"
+              },
+              "children" :
+              [
+                {
+                  "attributes" :
+                  {
+                    "name" : "address",
+                    "stateMutability" : "nonpayable",
+                    "type" : "address"
+                  },
+                  "id" : 2,
+                  "name" : "ElementaryTypeName",
+                  "src" : "74:7:0"
+                }
+              ],
+              "id" : 3,
+              "name" : "VariableDeclaration",
+              "src" : "74:22:0"
+            }
+          ],
+          "id" : 4,
+          "name" : "ParameterList",
+          "src" : "73:24:0"
+        }
+      ],
+      "id" : -100,
+      "name" : "EventDefinition",
+      "src" : "54:44:0"
+    }
+  ],
+  "id" : 190,
+  "name" : "MutationNode",
+  "src" : "58:129:0"
+}

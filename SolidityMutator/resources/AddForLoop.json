@@ -1,0 +1,183 @@
+{
+  "children" :
+  [
+    {
+      "attributes" :
+      {
+        "assignments" :
+        [
+          9
+        ]
+      },
+      "children" :
+      [
+        {
+          "attributes" :
+          {
+            "constant" : false,
+            "name" : "i",
+            "scope" : 19,
+            "stateVariable" : false,
+            "storageLocation" : "default",
+            "type" : "int256",
+            "value" : null,
+            "visibility" : "internal"
+          },
+          "children" :
+          [
+            {
+              "attributes" :
+              {
+                "name" : "int",
+                "type" : "int256"
+              },
+              "id" : 8,
+              "name" : "ElementaryTypeName",
+              "src" : "143:3:0"
+            }
+          ],
+          "id" : 9,
+          "name" : "VariableDeclaration",
+          "src" : "143:5:0"
+        },
+        {
+          "attributes" :
+          {
+            "argumentTypes" : null,
+            "hexvalue" : "30",
+            "isConstant" : false,
+            "isLValue" : false,
+            "isPure" : true,
+            "lValueRequested" : false,
+            "subdenomination" : null,
+            "token" : "number",
+            "type" : "int_const 0",
+            "value" : "0"
+          },
+          "id" : 10,
+          "name" : "Literal",
+          "src" : "150:1:0"
+        }
+      ],
+      "id" : 11,
+      "name" : "VariableDeclarationStatement",
+      "src" : "143:8:0"
+    },
+    {
+      "attributes" :
+      {
+        "argumentTypes" : null,
+        "commonType" :
+        {
+          "typeIdentifier" : "t_int256",
+          "typeString" : "int256"
+        },
+        "isConstant" : false,
+        "isLValue" : false,
+        "isPure" : false,
+        "lValueRequested" : false,
+        "operator" : "<",
+        "type" : "bool"
+      },
+      "children" :
+      [
+        {
+          "attributes" :
+          {
+            "argumentTypes" : null,
+            "overloadedDeclarations" :
+            [
+              null
+            ],
+            "referencedDeclaration" : 9,
+            "type" : "int256",
+            "value" : "i"
+          },
+          "id" : 12,
+          "name" : "Identifier",
+          "src" : "152:1:0"
+        },
+        {
+          "attributes" :
+          {
+            "argumentTypes" : null,
+            "hexvalue" : "35",
+            "isConstant" : false,
+            "isLValue" : false,
+            "isPure" : true,
+            "lValueRequested" : false,
+            "subdenomination" : null,
+            "token" : "number",
+            "type" : "int_const 5",
+            "value" : "5"
+          },
+          "id" : 13,
+          "name" : "Literal",
+          "src" : "154:1:0"
+        }
+      ],
+      "id" : 14,
+      "name" : "BinaryOperation",
+      "src" : "152:3:0"
+    },
+    {
+      "children" :
+      [
+        {
+          "attributes" :
+          {
+            "argumentTypes" : null,
+            "isConstant" : false,
+            "isLValue" : false,
+            "isPure" : false,
+            "lValueRequested" : false,
+            "operator" : "++",
+            "prefix" : false,
+            "type" : "int256"
+          },
+          "children" :
+          [
+            {
+              "attributes" :
+              {
+                "argumentTypes" : null,
+                "overloadedDeclarations" :
+                [
+                  null
+                ],
+                "referencedDeclaration" : 9,
+                "type" : "int256",
+                "value" : "i"
+              },
+              "id" : 15,
+              "name" : "Identifier",
+              "src" : "156:1:0"
+            }
+          ],
+          "id" : 16,
+          "name" : "UnaryOperation",
+          "src" : "156:3:0"
+        }
+      ],
+      "id" : 17,
+      "name" : "ExpressionStatement",
+      "src" : "156:3:0"
+    },
+    {
+      "attributes" :
+      {
+        "statements" :
+        [
+          null
+        ]
+      },
+      "children" : [],
+      "id" : 18,
+      "name" : "Block",
+      "src" : "160:17:0"
+    }
+  ],
+  "id" : 19,
+  "name" : "ForStatement",
+  "src" : "139:38:0"
+}

@@ -1,0 +1,40 @@
+{
+  "attributes" :
+  {
+    "canonicalName" : "Loops.SomeData",
+    "name" : "SomeData"
+  },
+  "children" :
+  [
+    {
+      "attributes" :
+      {
+        "name" : "DEFAULT"
+      },
+      "id" : 2,
+      "name" : "EnumValue",
+      "src" : "73:7:0"
+    },
+    {
+      "attributes" :
+      {
+        "name" : "ONE"
+      },
+      "id" : 3,
+      "name" : "EnumValue",
+      "src" : "81:3:0"
+    },
+    {
+      "attributes" :
+      {
+        "name" : "TWO"
+      },
+      "id" : 4,
+      "name" : "EnumValue",
+      "src" : "85:3:0"
+    }
+  ],
+  "id" : 5,
+  "name" : "EnumDefinition",
+  "src" : "58:31:0"
+}

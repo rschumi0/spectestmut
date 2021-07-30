@@ -1,0 +1,5 @@
+  name: "loop"
+  type: "AddFor"
+  parameters:
+    move: "rand"
+    randomNestedBreak: true

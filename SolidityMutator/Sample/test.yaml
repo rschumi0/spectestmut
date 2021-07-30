@@ -1,0 +1,23 @@
+name: "Mutation1"
+type : "AddRequire"
+parameters:
+  check: "testconst == 44"
+innerMutations:
+  - name: "Mutation11"
+    type : "AddConstant"
+    parameters:
+      type: "uint32"
+      value: "44"
+      name: "testconst"
+
+
+
+    
+
+
+
+
+
+
+    
+  

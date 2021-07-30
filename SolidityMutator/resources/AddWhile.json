@@ -1,0 +1,39 @@
+{
+  "children" :
+  [
+    {
+      "attributes" :
+      {
+        "argumentTypes" : null,
+        "hexvalue" : "74727565",
+        "isConstant" : false,
+        "isLValue" : false,
+        "isPure" : true,
+        "lValueRequested" : false,
+        "subdenomination" : null,
+        "token" : "bool",
+        "type" : "bool",
+        "value" : "true"
+      },
+      "id" : 7,
+      "name" : "Literal",
+      "src" : "128:4:0"
+    },
+    {
+      "attributes" :
+      {
+        "statements" :
+        [
+          null
+        ]
+      },
+      "children" : [],
+      "id" : 8,
+      "name" : "Block",
+      "src" : "133:12:0"
+    }
+  ],
+  "id" : 9,
+  "name" : "WhileStatement",
+  "src" : "121:24:0"
+}

@@ -1,0 +1,6 @@
+name: "Mutation1"
+type : "AddSynchronized"
+parameters:
+  move: "rand"
+  randomNestedThrow: true
+  nested: 3

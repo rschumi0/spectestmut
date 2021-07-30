@@ -1,0 +1,33 @@
+name: "Mutation1"
+type : "AddIfElse"
+parameters:
+  addTo: "Random"
+  condition: "true"
+  onlyIf: false
+  nested: 6
+innerMutations:
+  - name: "Inner1"
+    type: "AddModifier"
+    parameters:
+      count: 5
+  - name: "Inner2"
+    type: "AddEnumDef"
+    parameters:
+      count: 2
+  - name: "Inner3"
+    type: "AddWhile"
+    parameters:
+      Break: true
+      condition: "true"
+      addTo: "Random"
+
+    
+    
+
+
+
+
+
+
+    
+  
